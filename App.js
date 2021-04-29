@@ -14,6 +14,8 @@ export default function App() {
     { text: 'Buy a Pumpkin', key: '3' }
   ]);
 
+  // NEW CHAGE
+
   const pressHandler = (key) => {
     setTodos((prevTodos) => {
       return prevTodos.filter(todo => todo.key != key);
